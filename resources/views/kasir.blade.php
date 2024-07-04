@@ -292,7 +292,7 @@
                 alert('Order berhasil ditambahkan');
                 window.location.reload();
             } else {
-                alert('Terjadi kesalahan, silakan coba lagi');
+                alert('Stock barang yang dipesan tidak memenuhi');
                 if (data.errors) {
                     console.log('Validation errors:', data.errors);
                 }
